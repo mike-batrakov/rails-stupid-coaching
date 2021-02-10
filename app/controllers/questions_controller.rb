@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
 class QuestionsController < ApplicationController
-  def ask
-    @user_question = params[:question]
-  end
+  def ask; end
 end
